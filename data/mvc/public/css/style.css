@@ -1,0 +1,39 @@
+
+/*He creado un pequeño css ademas de un bootstrap para mostrar el header y el footer para usar la página de forma más comoda.*/
+
+.cont_pag
+{
+
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 30px 0;
+
+}
+
+.cont_pag>*
+{
+
+    width: 30%;
+
+}
+
+.general
+{
+
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+
+}
+
+.general>h1
+{
+
+    text-align: center;
+
+}
